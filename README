@@ -1,0 +1,22 @@
+# SBD Total Predictor
+
+A linear regression model that predicts a powerlifter's total (Squat + Bench + Deadlift) 
+based on competition attributes such as bodyweight, age, sex, and equipment category. 
+Built on a real-world U.S. powerlifting competition dataset (via Kaggle) to explore how 
+well simple linear models can capture strength-performance relationships.
+
+## What it does
+- Cleans and preprocesses raw competition data (handles missing values, outliers, categorical encoding)
+- Trains a scikit-learn linear regression model to predict SBD total from lifter attributes
+- Evaluates performance using R² and residual analysis
+- (Optional, if applicable) Extends to per-lift prediction (squat, bench, deadlift individually)
+
+## Tech stack
+- Python, pandas, NumPy, scikit-learn
+- Jupyter notebooks for EDA and experimentation
+- Git/GitHub for version control
+
+## Why
+Built as a hands-on project to apply core ML fundamentals — data cleaning, feature 
+engineering, train/test splits, model evaluation — to a domain I'm personally invested 
+in (powerlifting and strength training).
